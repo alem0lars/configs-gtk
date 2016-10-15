@@ -1,7 +1,7 @@
 <% if get_var :vm_dir %>
 file://<%= get_var :vm_dir %>
 <% end %>
-<% if get_var :bkp_dir %>
+<% if get_var :backup_dir %>
 file://<%= get_var :bkp_dir %>
 <% end %>
 <% if get_var :tmp_dir %>
