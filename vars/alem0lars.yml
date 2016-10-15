@@ -1,0 +1,26 @@
+# => inherits: generic <= #
+
+
+gtk:
+  theme: arc
+  icon_theme: arc
+  key_theme: Vi
+  
+fonts:
+  main:
+    name: Hack
+    size: 10
+
+vm_dir: /vm
+backup_dir: /data/backup
+tmp_dir: /data/tmp
+documents_dir: /data/documents
+graphics_dir: /data/graphics
+audio_dir: /data/audio
+video_dir: /data/video
+develop_dir: /data/develop
+downloads_dir: /data/downloads
+shared_dir: /data/shared
+
+
+# vim: set filetype: eruby.yaml :
