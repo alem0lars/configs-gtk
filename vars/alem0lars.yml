@@ -2,8 +2,8 @@
 
 
 gtk:
-  theme: arc
-  icon_theme: arc
+  theme: Arc-Dark
+  icon_theme: Arc
   key_theme: Vi
   
 fonts:
@@ -21,6 +21,9 @@ video_dir: /data/video
 develop_dir: /data/develop
 downloads_dir: /data/downloads
 shared_dir: /data/shared
+
+features:
+  - vim
 
 
 # vim: set filetype: eruby.yaml :

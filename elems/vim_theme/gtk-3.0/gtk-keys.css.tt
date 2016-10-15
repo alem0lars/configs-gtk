@@ -49,11 +49,11 @@
 
 
 GtkTreeView {
-  gtk-key-bindings: gtk-vi-tree-view;
+  -gtk-key-bindings: gtk-vi-tree-view;
 }
 
 GtkMenuShell {
-  gtk-key-bindings: gtk-vi-menu;
+  -gtk-key-bindings: gtk-vi-menu;
 }
 
 
