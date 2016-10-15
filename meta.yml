@@ -1,0 +1,13 @@
+elems:
+
+  - src:  gtk2rc
+    dst:  /etc/gtk-2.0/gtkrc
+    only: f?gtk
+
+  - src:  gtk3settings\.ini$
+    dst:  /etc/gtk-3.0/settings.ini
+    only: f?gtk
+
+  - src:  vim_theme/(.+)$
+    dst:  /usr/share/themes/Vi/<1>
+    only: f?gtk && f?vim
