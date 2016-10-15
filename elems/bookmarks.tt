@@ -1,0 +1,30 @@
+<% if get_var :vm_dir %>
+file://<%= get_var :vm_dir %>
+<% end %>
+<% if get_var :bkp_dir %>
+file://<%= get_var :bkp_dir %>
+<% end %>
+<% if get_var :tmp_dir %>
+file://<%= get_var :tmp_dir %>
+<% end %>
+<% if get_var :documents_dir %>
+file://<%= get_var :documents_dir %>
+<% end %>
+<% if get_var :graphics_dir %>
+file://<%= get_var :graphics_dir %>
+<% end %>
+<% if get_var :audio_dir %>
+file://<%= get_var :audio_dir %>
+<% end %>
+<% if get_var :video_dir %>
+file://<%= get_var :video_dir %>
+<% end %>
+<% if get_var :develop_dir %>
+file://<%= get_var :develop_dir %>
+<% end %>
+<% if get_var :downloads_dir %>
+file://<%= get_var :downloads_dir %>
+<% end %>
+<% if get_var :shared_dir %>
+file://<%= get_var :shared_dir %>
+<% end %>
