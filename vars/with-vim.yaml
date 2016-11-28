@@ -1,0 +1,8 @@
+gtk:
+  key_theme: Vi
+
+features:
+  - vim
+
+
+# vim: set filetype: eruby.yaml :
