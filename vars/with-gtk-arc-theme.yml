@@ -1,0 +1,6 @@
+gtk:
+  theme: Arc-Dark
+  icon_theme: Arc
+  
+  
+# vim: set filetype=eruby.yaml :
