@@ -2,7 +2,7 @@
 
 gtk-theme-name=<%= get_var! 'gtk.theme' %>
 gtk-icon-theme-name=<%= get_var! 'gtk.icon_theme' %>
-gtk-font-name=<%= get_var! 'fonts.main.name' %> <%= get_var! 'fonts.main.size' %>
+gtk-font-name=<%= get_var! 'gtk.font.name' %> <%= get_var! 'gtk.font.size' %>
 gtk-cursor-theme-size=0
 gtk-toolbar-style=GTK_TOOLBAR_TEXT
 gtk-toolbar-icon-size=GTK_ICON_SIZE_SMALL_TOOLBAR

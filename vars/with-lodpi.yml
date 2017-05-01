@@ -1,0 +1,6 @@
+gtk:
+  font:
+    size: 10
+
+
+# vim: set filetype: eruby.yaml :
