@@ -1,4 +1,4 @@
-# => inherits: generic, with-alem0lars-dirs, with-hidpi, with-alem0lars-font, with-gtk-arc-theme.yml, with-vim <= #
+# => inherits: generic, with-alem0lars-dirs, with-hidpi, with-alem0lars-font, with-gtk-arc-theme.yml <= #
 
 
 # vim: set filetype: eruby.yaml :
