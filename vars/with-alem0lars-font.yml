@@ -1,6 +1,6 @@
 gtk:
   font:
-    name: Hack
+    name: Roboto Light
 
 
 # vim: set filetype=eruby.yaml :
