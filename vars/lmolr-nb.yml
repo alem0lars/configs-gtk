@@ -1,0 +1,15 @@
+# => inherits: generic, with-hidpi, with-gtk-arc-theme, with-vim <= #
+
+gtk:
+  font:
+    name: 'Noto'
+    size: 11
+vm_dir:        /data/vm
+backup_dir:    /data/backup
+tmp_dir:       /data/tmp
+documents_dir: /data/documents
+develop_dir:   /data/develop
+downloads_dir: /data/downloads
+shared_dir:    /data/shared
+
+# vim: set filetype: eruby.yaml :
