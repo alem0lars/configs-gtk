@@ -8,6 +8,10 @@ elems:
     dst:  /etc/gtk-3.0/settings.ini
     only: f?gtk
 
+  - src:  bookmarks$
+    dst:  /etc/gtk-3.0/bookmarks
+    only: f?gtk && f?bookmarks
+
   - src:  vim_theme/(.+)$
     dst:  /usr/share/themes/Vi/<1>
     only: f?gtk && f?vim

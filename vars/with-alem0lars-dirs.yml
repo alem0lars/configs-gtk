@@ -1,17 +1,20 @@
 gtk:
   bookmarks:
-    - /data/apps-data
-    - /data/audio
+    - /data/tmp
+    - /data/vm
     - /data/backups
+    - /data/iso
+    - /data/apps-data
     - /data/books
     - /data/courses
-    - /data/downloads
     - /data/graphics
-    - /data/incoming
-    - /data/iso
-    - /data/projects
-    - /data/shared
-    - /data/tmp
+    - /data/audio
     - /data/video
-    - /data/vm
+    - /data/projects
     - /data/workspaces
+    - /data/incoming
+    - /data/downloads
+    - /data/shared
+
+features:
+  - bookmarks
