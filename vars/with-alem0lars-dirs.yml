@@ -1,13 +1,17 @@
-vm_dir: /vm
-backup_dir: /data/backup
-tmp_dir: /data/tmp
-documents_dir: /data/documents
-graphics_dir: /data/graphics
-audio_dir: /data/audio
-video_dir: /data/video
-develop_dir: /data/develop
-downloads_dir: /data/downloads
-shared_dir: /data/shared
-
-
-# vim: set filetype:eruby.yaml :
+gtk:
+  bookmarks:
+    - /data/apps-data
+    - /data/audio
+    - /data/backups
+    - /data/books
+    - /data/courses
+    - /data/downloads
+    - /data/graphics
+    - /data/incoming
+    - /data/iso
+    - /data/projects
+    - /data/shared
+    - /data/tmp
+    - /data/video
+    - /data/vm
+    - /data/workspaces
