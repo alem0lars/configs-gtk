@@ -4,12 +4,19 @@ gtk:
   font:
     name: 'Noto'
     size: 11
-vm_dir:        /data/vm
-backup_dir:    /data/backup
-tmp_dir:       /data/tmp
-documents_dir: /data/documents
-develop_dir:   /data/develop
-downloads_dir: /data/downloads
-shared_dir:    /data/shared
+  bookmarks:
+    - /data/backups
+    - /data/downloads
+    - /data/images
+    - /data/projects
+    - /data/shared
+    - /data/sync
+    - /data/tmp
+    - /data/vm
+    - /data/sync/mega/Develop
+    - /data/sync/mega/Workspace
+
+features:
+  - bookmarks
 
 # vim: set filetype: eruby.yaml :
